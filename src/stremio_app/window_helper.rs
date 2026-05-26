@@ -14,7 +14,7 @@ use winapi::um::winuser::{
 
 const DWMWA_CAPTION_COLOR: DWORD = 35;
 const DWMWA_TEXT_COLOR: DWORD = 36;
-const STREMIO_CAPTION_COLOR: DWORD = colorref(0x15, 0x12, 0x2b);
+const STREMIO_CAPTION_COLOR: DWORD = colorref(0x1e, 0x1e, 0x1e);
 const WHITE_TEXT_COLOR: DWORD = colorref(0xff, 0xff, 0xff);
 
 const fn colorref(red: DWORD, green: DWORD, blue: DWORD) -> DWORD {

@@ -16,3 +16,8 @@ Meanwhile in this setup MPV uses whichever pipeline it considers to be optimal (
 For web rendering, we use the native WebView2, which is Chromium based but shipped as a part of Windows 10: therefore we do not need to ship our own "distribution" of Chromium.
 
 Finally, this should be a lot more reliable as it uses a much simpler and more native overall architecture.
+
+### Build
+```bash
+cargo build --release --target x86_64-pc-windows-msvc
+```
